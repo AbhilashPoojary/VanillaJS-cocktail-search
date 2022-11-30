@@ -1,0 +1,60 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  max-width: 500px;
+  height: auto;
+  padding: 1rem;
+  min-height: 600px;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 15%);
+}
+.input-wrap {
+  width: 80%;
+}
+.result-img {
+  max-width: 250px;
+  margin: 0 auto;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 15%);
+}
+/* ul li {
+  list-style-type: none;
+} */
+p {
+  margin: 0;
+  padding: 0;
+}
+img.arrow-left {
+  position: absolute;
+  left: -8%;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 30px;
+  cursor: pointer;
+  filter: invert(1);
+  /* or to blue */
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+img.arrow-right {
+  position: absolute;
+  right: -8%;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 30px;
+  cursor: pointer;
+  filter: invert(1);
+  /* or to blue */
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.lr-center {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-disabled {
+  filter: opacity(0.5) !important;
+  cursor: initial !important;
+}
