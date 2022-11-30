@@ -57,7 +57,7 @@ const updateResult = () => {
               <div id="${item.idDrink}" class="cocktail-item ${
       index === itemIndex ? "" : "d-none"
     }">
-                  <div class="img-container mb-2">
+                  <div class="img-container mb-2 text-center">
                       <img src="${
                         item.strDrinkThumb
                       }" class="img-fluid result-img"/>
